@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: darkgrey;
 }
 
 h1 {
@@ -7,9 +8,15 @@ h1 {
     display: inline-block;
 }
 
+a {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
 .topnav {
     display: inline-block;
-    margin-left: 900px;
+    margin-left: 850px;
     font-size: 20px;
 }
 
@@ -44,6 +51,7 @@ footer {
     left: 0;
     right: 0;
     text-align: center;
+    background-color: darkgray;
 }
 
 h3 {
@@ -53,4 +61,3 @@ h3 {
     text-align: center;
     font-size: 3em;
 }
-
