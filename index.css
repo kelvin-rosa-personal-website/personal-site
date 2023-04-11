@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #f9f9f9;
+    background-image: linear-gradient(to right top, #000000, #171516, #262225, #343036, #414049, #474853, #4c505e, #505968, #4f5a6d, #4f5c72, #4e5d77, #4e5e7c);
     min-height: 100vh;
     overflow-x: hidden;
 }
 
 header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -25,13 +25,13 @@ header {
 
 .logo {
     font-size: 2em;
-    color: green;
+    color: white;
     pointer-events: 0;
 }
 
 .navigation a {
     text-decoration: none;
-    color: green;
+    color: white;
     padding: 6px 15px;
     border-radius: 20px;
     margin: 0px 10px;
@@ -40,8 +40,8 @@ header {
 
 .navigation a:hover, 
 .navigation a:active {
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .name {
@@ -54,6 +54,38 @@ header {
 
 #text {
     position: absolute;
-    font-size: 3em;
-    color: #333;
+    font-size: 2em;
+    color: white;
+}
+
+.sentence {
+    text-align: center;
+}
+
+#container {
+    background-image: linear-gradient(to right top, #000000, #171516, #262225, #343036, #414049, #474853, #4c505e, #505968, #4f5a6d, #4f5c72, #4e5d77, #4e5e7c);
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.about-me-msg {
+    border: #000000;
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+.home-prg {
+    margin-top: 45px;
+    color: white;
 }
